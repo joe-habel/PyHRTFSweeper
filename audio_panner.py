@@ -256,7 +256,7 @@ def test_subject(subject_number):
                         subject,'hrir_final.mat')
 
 
-def panner(audio_file,new_file_name,audio_dir,sweep_time=15,sweep_frequency=0.1,
+def panner(audio_file,new_file_name,audio_dir='',sweep_time=15,sweep_frequency=0.1,
          crossfade_ms=25,room_scale=85,subject=65,max_angle=90, low_freq=75,
          high_freq = None):
     
